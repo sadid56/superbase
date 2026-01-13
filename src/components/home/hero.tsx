@@ -150,7 +150,7 @@ const Hero = () => {
                   setSelectedWeek(null);
                   setSelectedDate(null);
                 }}
-                className='text-custom-gray hover:text-custom-primary transition-colors font-medium'
+                className='text-custom-gray uppercase hover:text-custom-primary transition-colors font-medium'
               >
                 Back
               </button>
