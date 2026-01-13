@@ -141,7 +141,7 @@ const Hero = () => {
       <section className='bg-white'>
         <Container>
           <div className='py-[32px] flex flex-col sm:flex-row items-center justify-between gap-4'>
-            <h3 className='text-15 font-medium text-custom-primary'>
+            <h3 className='text-15 font-medium text-custom-primary uppercase'>
               {selectedWeek !== null ? heroItems[selectedWeek].value : "$35 for 5 Days"} (1 Activity per Day)
             </h3>
             <div className='flex items-center gap-6'>
